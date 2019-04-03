@@ -4,14 +4,15 @@
   "description": "",
   "main": "src/scripts/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && eçxit 1",
-    "devStart": "nodemon src/server.js"
+    "test": "tape src/server.js | tap-spec",
+    "start": "nodemon src/server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^1.18.10",
+    "tap-spec": "^5.0.0",
     "tape": "^4.10.1"
   }
 }

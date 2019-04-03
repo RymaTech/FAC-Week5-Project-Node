@@ -1,9 +1,9 @@
 const http = require('http');
 const router = require('./router');
-const port = 4000;
+const PORT = process.env.PORT || 4000;
 
 const server = http.createServer(router);
 
-server.listen(port);
+server.listen(PORT);
 
-console.log(`server up and running on localhost:${port}`);
+console.log(`server up and running on localhost:${PORT}`);

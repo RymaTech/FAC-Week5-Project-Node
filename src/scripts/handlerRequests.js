@@ -1,4 +1,5 @@
 const request = require('request');
+const boroughFunc = require('./boroughFunc');
 
 const handleLondon = (req, res) => {
   request(
@@ -8,8 +9,10 @@ const handleLondon = (req, res) => {
         console.log("There's an error");
         return;
       } else {
+        const result = boroughFunc(body);
+        console.log(result);
         res.writeHead(200, { 'Content-Type': 'application/json' });
-        res.end(body);
+        res.end(JSON.stringify(result));
       }
     }
   );
@@ -23,8 +26,9 @@ const handleLondonBoroughs = (req, res, url) => {
       console.log("There's an error");
       return;
     } else {
+      let data = boroughFunc(body);
       res.writeHead(200, { 'Content-Type': 'application/json' });
-      res.end(body);
+      res.end(JSON.stringify(data));
     }
   });
 };

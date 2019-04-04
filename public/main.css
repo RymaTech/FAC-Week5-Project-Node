@@ -1,3 +1,14 @@
 body {
   background: blue;
 }
+
+#lambeth:hover {
+  fill: red;
+  cursor: pointer;
+}
+
+.display {
+  width: 100px;
+  height: 100px;
+  background: yellow;
+}

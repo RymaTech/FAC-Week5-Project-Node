@@ -14,5 +14,8 @@
     "nodemon": "^1.18.10",
     "tap-spec": "^5.0.0",
     "tape": "^4.10.1"
+  },
+  "dependencies": {
+    "request": "^2.88.0"
   }
 }

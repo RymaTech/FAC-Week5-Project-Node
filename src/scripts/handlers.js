@@ -5,7 +5,6 @@ const handleHomeRoute = (request, response) => {
   const filePath = path.join(__dirname, '..', '..', 'public', 'index.html');
 
   fs.readFile(filePath, (error, file) => {
-    // console.log(__dirname);
     if (error) {
       console.log(error);
       response.writeHead(500, { 'Content-Type': 'text/html' });
@@ -26,7 +25,6 @@ const handlePublic = (request, response, url) => {
     ico: 'image/x-icon'
   };
 
-  // Replaced err with error in line 30
   const filePath = path.join(__dirname, '..', '..', url);
   fs.readFile(filePath, (error, file) => {
     if (error) {

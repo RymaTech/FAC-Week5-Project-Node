@@ -23,8 +23,6 @@ const handleLondonBoroughs = (req, res, url) => {
       console.log("There's an error");
       return;
     } else {
-      console.log('handlerReq.js :', body);
-
       res.writeHead(200, { 'Content-Type': 'application/json' });
       res.end(body);
     }

@@ -1,5 +1,5 @@
 document.onload = function() {
-    // if (document.readyState === "complete") {
+    if (document.readyState === "complete") {
         let xhr = new XMLHttpRequest();
         console.log('hellp')
 
@@ -11,7 +11,7 @@ document.onload = function() {
             }
         }
 
-    xhr.open('GET', '/', true);
+    xhr.open('GET', '/GroupName=London', true);
     xhr.send();
-    
+    }
 }

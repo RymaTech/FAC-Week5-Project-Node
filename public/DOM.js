@@ -1,19 +1,19 @@
 const button = document.getElementsByTagName('button');
 
-document.onreadystatechange = function() {
-  if (document.readyState === 'complete') {
-    let xhr = new XMLHttpRequest();
+// document.onreadystatechange = function() {
+//   if (document.readyState === 'complete') {
+//     let xhr = new XMLHttpRequest();
 
-    xhr.onreadystatechange = function() {
-      if (xhr.readyState === 4 && xhr.status === 200) {
-        const data = JSON.parse(xhr.responseText);
-      }
-    };
+//     xhr.onreadystatechange = function() {
+//       if (xhr.readyState === 4 && xhr.status === 200) {
+//         const data = JSON.parse(xhr.responseText);
+//       }
+//     };
 
-    xhr.open('GET', '/GroupName=London', true);
-    xhr.send();
-  }
-};
+//     xhr.open('GET', '/GroupName=London', true);
+//     xhr.send();
+//   }
+// };
 
 lambeth.addEventListener('click', () => {
   let xhr = new XMLHttpRequest();
@@ -22,7 +22,8 @@ lambeth.addEventListener('click', () => {
   xhr.onreadystatechange = function() {
     if (xhr.readyState === 4 && xhr.status === 200) {
       const data = JSON.parse(xhr.responseText);
-      console.log('DOM.js :', data);
+      let sum = data.reduce((a, b) => a + b, 0);
+      console.log(sum);
     }
   };
 

@@ -8,7 +8,7 @@ console.log('request url ',request.url);
     handlers.handleHomeRoute(request, response);
   } else if (url.indexOf('public') !== -1) {
     handlers.handlePublic(request, response, url);
-  } else if (url.indexOf('/GroupName=London') !== -1) {
+  } else if (url.indexOf(`/GroupName=barkinganddagenham`) !== -1) {
     console.log('hello received a request')
     apiRequestHandlers.handleLondon(request, response, "http://api.erg.kcl.ac.uk/AirQuality/Daily/MonitoringIndex/Latest/GroupName=London/Json");
   } else {

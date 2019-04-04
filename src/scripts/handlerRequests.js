@@ -9,9 +9,11 @@ const handleLondon = (req, res) => {
             }
             else {
             // console.log('error:', error);
-           
-            console.log(body);
-            
+            // 
+            // console.log("This is the response", body);
+            // console.log("This is the list of local authorities", response);
+
+
 
             res.writeHead(200, { 'Content-Type': 'application/json' });
             res.end(body);

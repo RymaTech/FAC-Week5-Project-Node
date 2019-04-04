@@ -1,4 +1,4 @@
-const button = document.getElementsByTagName('button');
+const button = document.getElementById('lambeth');
 
 // document.onreadystatechange = function() {
 //   if (document.readyState === 'complete') {
@@ -15,15 +15,23 @@ const button = document.getElementsByTagName('button');
 //   }
 // };
 
-lambeth.addEventListener('click', () => {
+button.addEventListener('click', () => {
+  console.log("Hello");
   let xhr = new XMLHttpRequest();
-  let value = button[0].id;
+  let value = button.id;
   console.log(value);
   xhr.onreadystatechange = function() {
     if (xhr.readyState === 4 && xhr.status === 200) {
       const data = JSON.parse(xhr.responseText);
-      let sum = data.reduce((a, b) => a + b, 0);
-      console.log(sum);
+
+      let display = document.querySelector(".display");
+
+      let result = document.createElement("span");
+      result.textContent = "Lambeth's Air Quality Index today is: " + data;
+
+      display.appendChild(result);
+
+      console.log(data);
     }
   };
 

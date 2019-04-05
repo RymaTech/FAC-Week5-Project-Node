@@ -1,0 +1,103 @@
+{
+    "DailyAirQualityIndex": {
+      "@MonitoringIndexDate": "2019-04-03 00:00:00",
+      "@GroupName": "lambeth",
+      "@TimeToLive": "59",
+      "LocalAuthority": {
+        "@LocalAuthorityCode": "22",
+        "@LocalAuthorityName": "Lambeth",
+        "@LaCentreLatitude": "51.489112",
+        "@LaCentreLongitude": "-0.11067",
+        "@LaCentreLatitudeWGS84": "6708272.298688",
+        "@LaCentreLongitudeWGS84": "-12319.728046",
+        "Site": [
+          {
+            "@BulletinDate": "2019-04-03 00:00:00",
+            "@SiteCode": "LB4",
+            "@SiteName": "Lambeth - Brixton Road",
+            "@SiteType": "Kerbside",
+            "@Latitude": "51.464113541162",
+            "@Longitude": "-0.11458102695123",
+            "@LatitudeWGS84": "6703810.46654",
+            "@LongitudeWGS84": "-12751.5363509",
+            "Species": [
+              {
+                "@SpeciesCode": "NO2",
+                "@SpeciesDescription": "Nitrogen Dioxide",
+                "@AirQualityIndex": "3",
+                "@AirQualityBand": "Low",
+                "@IndexSource": "Measurement"
+              },
+              {
+                "@SpeciesCode": "PM10",
+                "@SpeciesDescription": "PM10 Particulate",
+                "@AirQualityIndex": "2",
+                "@AirQualityBand": "Low",
+                "@IndexSource": "Measurement"
+              }
+            ]
+          },
+          {
+            "@BulletinDate": "2019-04-03 00:00:00",
+            "@SiteCode": "LB5",
+            "@SiteName": "Lambeth - Bondway Interchange",
+            "@SiteType": "Industrial",
+            "@Latitude": "51.4854867739729",
+            "@Longitude": "-0.124545234819213",
+            "@LatitudeWGS84": "6707629.96897",
+            "@LongitudeWGS84": "-13860.2784792",
+            "Species": [
+              {
+                "@SpeciesCode": "NO2",
+                "@SpeciesDescription": "Nitrogen Dioxide",
+                "@AirQualityIndex": "2",
+                "@AirQualityBand": "Low",
+                "@IndexSource": "Measurement"
+              },
+              {
+                "@SpeciesCode": "PM10",
+                "@SpeciesDescription": "PM10 Particulate",
+                "@AirQualityIndex": "4",
+                "@AirQualityBand": "Moderate",
+                "@IndexSource": "Measurement"
+              },
+              {
+                "@SpeciesCode": "SO2",
+                "@SpeciesDescription": "Sulphur Dioxide",
+                "@AirQualityIndex": "1",
+                "@AirQualityBand": "Low",
+                "@IndexSource": "Measurement"
+              }
+            ]
+          },
+          {
+            "@BulletinDate": "2019-04-03 00:00:00",
+            "@SiteCode": "LB6",
+            "@SiteName": "Lambeth - Streatham Green",
+            "@SiteType": "Urban Background",
+            "@Latitude": "51.4282131429499",
+            "@Longitude": "-0.13186863879576",
+            "@LatitudeWGS84": "6697392.0894",
+            "@LongitudeWGS84": "-14679.5497223",
+            "Species": [
+              {
+                "@SpeciesCode": "NO2",
+                "@SpeciesDescription": "Nitrogen Dioxide",
+                "@AirQualityIndex": "1",
+                "@AirQualityBand": "Low",
+                "@IndexSource": "Measurement"
+              },
+              {
+                "@SpeciesCode": "PM10",
+                "@SpeciesDescription": "PM10 Particulate",
+                "@AirQualityIndex": "2",
+                "@AirQualityBand": "Low",
+                "@IndexSource": "Measurement"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+  

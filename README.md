@@ -4,11 +4,11 @@ Week 5 project.
 
 ## :cat: TEAM
 
-:cloud: Bobby @bobbysebolao :cloud: Anna @tloth :cloud: Ryan @RymaTech :cloud: Banna :cloud:
+:cloud: Bobby @bobbysebolao :cloud: Anna @tloth :cloud: Ryan @RymaTech :cloud: Banna @bantek89 :cloud:
 
 ## :dog: SET-UP
 
-+ visit https://co2-much.herokuapp.com/ (doesn't currently work for some reason), or
++ visit https://co2-much.herokuapp.com/ , or
 + set up locally:
 1. Clone this repo.
 2. Go to the repo folder `Week5-BARb`.

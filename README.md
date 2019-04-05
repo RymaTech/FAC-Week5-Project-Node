@@ -2,11 +2,11 @@
 A website that shows you today's air pollution level in your selected London borough.
 Week 5 project.
 
-## TEAM
+## :cat: TEAM
 
 :cloud: Bobby @bobbysebolao :cloud: Anna @tloth :cloud: Ryan @RymaTech :cloud: Banna :cloud:
 
-## SET-UP
+## :dog: SET-UP
 
 + visit https://co2-much.herokuapp.com/ (doesn't currently work for some reason), or
 + set up locally:
@@ -16,18 +16,26 @@ Week 5 project.
 4. Run `npm start` to run the server.
 5. Visit `localhost:4000` in your browser - you're set up!
 
-## BUILT WITH
+## :hammer: BUILT WITH
 
 + Javascript
 + Node.js
     + request
 + Heroku
 
-## API
+## :angry: API
 
 We used KCL's London Air API: https://www.londonair.org.uk/LondonAir/API/.
 
-## GOALS
+## :lightbulb: ORIGINAL IDEAS
+
+![ideas](https://i.imgur.com/HyCQbMv.jpg)
+
+## :sun: GOALS
+
+![todo](https://i.imgur.com/3vxi72Y.jpg)
+
+![todo2](https://i.imgur.com/wHA6Z2k.jpg)
 
 :heavy_check_mark: 1. Use at least 1 API
 
@@ -55,7 +63,12 @@ We used KCL's London Air API: https://www.londonair.org.uk/LondonAir/API/.
 
 13. Display continuous integration and code coverage badges on your project README.
 
+## :girl: USER JOURNEYS
+![user journey og](https://i.imgur.com/HHWHMIS.jpg)
 
+![user journey1](https://i.imgur.com/0EBIfim.jpg)
+
+![user journey2](https://i.imgur.com/6Ax2ljv.jpg)
 
 ## :mortar_board: Things that we learned
 ### There's no line of code too small to console.log()

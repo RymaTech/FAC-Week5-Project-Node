@@ -1,9 +1,20 @@
 body {
-  background: blue;
+  /* background: blue; */
+  background: url("london-from-above.png");
+}
+
+.london-map {
+  max-width:500px;
+}
+
+#lambeth {
+  fill: green;
+  transition: all 0.25s ease;
 }
 
 #lambeth:hover {
   fill: red;
+  /* opacity: 0.5; */
   cursor: pointer;
 }
 

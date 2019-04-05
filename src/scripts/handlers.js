@@ -22,7 +22,8 @@ const handlePublic = (request, response, url) => {
     html: 'text/html',
     css: 'text/css',
     js: 'application/javascript',
-    ico: 'image/x-icon'
+    ico: 'image/x-icon',
+    png: "image/png"
   };
 
   const filePath = path.join(__dirname, '..', '..', url);

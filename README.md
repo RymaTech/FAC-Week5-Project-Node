@@ -27,11 +27,11 @@ Week 5 project.
 
 We used KCL's London Air API: https://www.londonair.org.uk/LondonAir/API/.
 
-## :lightbulb: ORIGINAL IDEAS
+## :parrot: ORIGINAL IDEAS
 
 ![ideas](https://i.imgur.com/HyCQbMv.jpg)
 
-## :sun: GOALS
+## :sleeping: GOALS
 
 ![todo](https://i.imgur.com/3vxi72Y.jpg)
 
@@ -78,7 +78,7 @@ We used KCL's London Air API: https://www.londonair.org.uk/LondonAir/API/.
 ### You can't use .map() to parse a set of nested objects
 
 
-## Things that we struggled with
+## :sad: Things that we struggled with
 
 ### Naming variables!
 

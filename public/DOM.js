@@ -28,9 +28,13 @@ buttons[i].addEventListener('click', () => {
   xhr.onreadystatechange = function() {
     if (xhr.readyState === 4 && xhr.status === 200) {
       const data = JSON.parse(xhr.responseText);
-      result.textContent = `${value}` + "'s Air Quality Index today is: " + data;
-
-      console.log(data);
+      if (data == 'Sorry, no data available'){
+        console.log('no data')
+        result.textContent = data;
+      }
+      else {
+        result.textContent = `${value}` + "'s Air Quality Index today is: " + data;
+      }
     }
   };
 

@@ -1,5 +1,5 @@
 const test = require('tape');
-const filter = require('../scripts/BoroughFunc.js');
+const filter = require('../scripts/boroughFunc.js');
 const lambeth = require('./ObjLambeth.json');
 const wandsworth = require('./ObjWandsworth.json');
 

@@ -16,7 +16,7 @@ const boroughFunction = json => {
 
         let sum = arr.reduce((a, b) => a + b, 0);
         let result = sum/arr.length;
-        return result;
+        return Math.round(result);
 };
   
 module.exports = boroughFunction;

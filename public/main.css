@@ -1,21 +1,65 @@
 body {
   /* background: blue; */
-  background: url("london-from-above.png");
+  /* background: url("london-from-above.jpg");
+  display: block;
+  position: relative; */
+  height: 99vh;
+  width: 100vw;
+  font-family: "Merriweather Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
-.london-map {
-  max-width:500px;
+h1 {
+  font-size: 20px;
+}
+
+.title {
+  max-width: 800px;
   margin: 0 auto;
 }
 
-#lambeth {
-  fill: green;
+/* h1 > span {
+  font-size: 3rem;
+} */
+
+.background {
+  display: block;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.background::after {
+  content: "";
+  background: url("london-from-above.jpg");
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+
+.london-map {
+  max-width:800px;
+  margin: 0 auto;
+}
+
+.london-map:hover {
+  fill: grey;
+}
+
+#lambeth, #havering, #bexley, #redbridge, #enfield, #walthamforest, #sutton, #kingston, #bromley, #croydon, #barkinganddagenham, #newham, #greenwich, #towerhamlets, #hackney, #islington, #cityoflondon, #merton, #lewisham, #southwark, #haringey, #wandsworth, #westminster, #camden, #barnet, #kensingtonandchelsea, #hammersmithandfulham, #brent, #harrow, #richmond, #hounslow, #hillingdon, #ealing {
+  fill: rgb(202, 223, 241);
   transition: all 0.25s ease;
 }
 
-#lambeth:hover {
-  fill: red;
-  /* opacity: 0.5; */
+#lambeth:hover, #havering:hover, #bexley:hover, #redbridge:hover, #enfield:hover, #walthamforest:hover, #sutton:hover, #kingston:hover, #bromley:hover, #croydon:hover, #barkinganddagenham:hover, #newham:hover, #greenwich:hover, #towerhamlets:hover, #hackney:hover, #islington:hover, #cityoflondon:hover, #merton:hover, #lewisham:hover, #southwark:hover, #haringey:hover, #wandsworth:hover, #westminster:hover, #camden:hover, #barnet:hover, #kensingtonandchelsea:hover, #hammersmithandfulham:hover, #brent:hover, #harrow:hover, #richmond:hover, #hounslow:hover, #hillingdon:hover, #ealing:hover {
+  fill: rgb(56, 55, 55);
   cursor: pointer;
 }
 
@@ -23,4 +67,8 @@ body {
   width: 100px;
   height: 100px;
   background: yellow;
+}
+
+footer {
+  height: 1vh;
 }

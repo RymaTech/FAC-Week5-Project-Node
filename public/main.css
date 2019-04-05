@@ -5,7 +5,7 @@ body {
   position: relative; */
   height: 99vh;
   width: 100vw;
-  font-family: "Merriweather Sans", sans-serif;
+  font-family: 'Merriweather Sans', sans-serif;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -16,10 +16,16 @@ h1 {
   font-size: 20px;
 }
 
-.title {
+.container {
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+}
+
+/* .title {
   max-width: 800px;
   margin: 0 auto;
-}
+} */
 
 /* h1 > span {
   font-size: 3rem;
@@ -33,19 +39,19 @@ h1 {
 }
 
 .background::after {
-  content: "";
-  background: url("london-from-above.jpg");
+  content: '';
+  background: url('london-from-above.jpg');
   opacity: 0.2;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
   position: absolute;
-  z-index: -1;   
+  z-index: -1;
 }
 
 .london-map {
-  max-width:800px;
+  max-width: 800px;
   margin: 0 auto;
 }
 
@@ -53,20 +59,90 @@ h1 {
   fill: grey;
 }
 
-#lambeth, #havering, #bexley, #redbridge, #enfield, #walthamforest, #sutton, #kingston, #bromley, #croydon, #barkinganddagenham, #newham, #greenwich, #towerhamlets, #hackney, #islington, #cityoflondon, #merton, #lewisham, #southwark, #haringey, #wandsworth, #westminster, #camden, #barnet, #kensingtonandchelsea, #hammersmithandfulham, #brent, #harrow, #richmond, #hounslow, #hillingdon, #ealing {
+#lambeth,
+#havering,
+#bexley,
+#redbridge,
+#enfield,
+#walthamforest,
+#sutton,
+#kingston,
+#bromley,
+#croydon,
+#barkinganddagenham,
+#newham,
+#greenwich,
+#towerhamlets,
+#hackney,
+#islington,
+#cityoflondon,
+#merton,
+#lewisham,
+#southwark,
+#haringey,
+#wandsworth,
+#westminster,
+#camden,
+#barnet,
+#kensingtonandchelsea,
+#hammersmithandfulham,
+#brent,
+#harrow,
+#richmond,
+#hounslow,
+#hillingdon,
+#ealing {
   fill: rgb(202, 223, 241);
   transition: all 0.25s ease;
 }
 
-#lambeth:hover, #havering:hover, #bexley:hover, #redbridge:hover, #enfield:hover, #walthamforest:hover, #sutton:hover, #kingston:hover, #bromley:hover, #croydon:hover, #barkinganddagenham:hover, #newham:hover, #greenwich:hover, #towerhamlets:hover, #hackney:hover, #islington:hover, #cityoflondon:hover, #merton:hover, #lewisham:hover, #southwark:hover, #haringey:hover, #wandsworth:hover, #westminster:hover, #camden:hover, #barnet:hover, #kensingtonandchelsea:hover, #hammersmithandfulham:hover, #brent:hover, #harrow:hover, #richmond:hover, #hounslow:hover, #hillingdon:hover, #ealing:hover {
+#lambeth:hover,
+#havering:hover,
+#bexley:hover,
+#redbridge:hover,
+#enfield:hover,
+#walthamforest:hover,
+#sutton:hover,
+#kingston:hover,
+#bromley:hover,
+#croydon:hover,
+#barkinganddagenham:hover,
+#newham:hover,
+#greenwich:hover,
+#towerhamlets:hover,
+#hackney:hover,
+#islington:hover,
+#cityoflondon:hover,
+#merton:hover,
+#lewisham:hover,
+#southwark:hover,
+#haringey:hover,
+#wandsworth:hover,
+#westminster:hover,
+#camden:hover,
+#barnet:hover,
+#kensingtonandchelsea:hover,
+#hammersmithandfulham:hover,
+#brent:hover,
+#harrow:hover,
+#richmond:hover,
+#hounslow:hover,
+#hillingdon:hover,
+#ealing:hover {
   fill: rgb(56, 55, 55);
   cursor: pointer;
 }
 
+.containerResults {
+  display: flex;
+  justify-content: center;
+}
+
 .display {
-  width: 100px;
-  height: 100px;
-  background: yellow;
+  width: 300px;
+  height: 50px;
+  background: rgb(202, 223, 241);
+  font-size: 1rem;
 }
 
 footer {

@@ -1,0 +1,147 @@
+{
+    "DailyAirQualityIndex": {
+      "@MonitoringIndexDate": "2019-04-03 00:00:00",
+      "@GroupName": "wandsworth",
+      "@TimeToLive": "48",
+      "LocalAuthority": {
+        "@LocalAuthorityCode": "32",
+        "@LocalAuthorityName": "Wandsworth",
+        "@LaCentreLatitude": "51.45679",
+        "@LaCentreLongitude": "-0.192679",
+        "@LaCentreLatitudeWGS84": "6702495.832131",
+        "@LaCentreLongitudeWGS84": "-21448.928167",
+        "Site": [
+          {
+            "@BulletinDate": "2019-04-03 00:00:00",
+            "@SiteCode": "WA2",
+            "@SiteName": "Wandsworth - Wandsworth Town Hall",
+            "@SiteType": "Urban Background",
+            "@Latitude": "51.456962",
+            "@Longitude": "-0.191074",
+            "@LatitudeWGS84": "6702526.5605",
+            "@LongitudeWGS84": "-21270.2603838",
+            "Species": {
+              "@SpeciesCode": "NO2",
+              "@SpeciesDescription": "Nitrogen Dioxide",
+              "@AirQualityIndex": "2",
+              "@AirQualityBand": "Low",
+              "@IndexSource": "Measurement"
+            }
+          },
+          {
+            "@BulletinDate": "2019-04-03 00:00:00",
+            "@SiteCode": "WA7",
+            "@SiteName": "Wandsworth - Putney High Street",
+            "@SiteType": "Kerbside",
+            "@Latitude": "51.463429",
+            "@Longitude": "-0.215871",
+            "@LatitudeWGS84": "6703681.99537",
+            "@LongitudeWGS84": "-24030.649797",
+            "Species": [
+              {
+                "@SpeciesCode": "NO2",
+                "@SpeciesDescription": "Nitrogen Dioxide",
+                "@AirQualityIndex": "3",
+                "@AirQualityBand": "Low",
+                "@IndexSource": "Measurement"
+              },
+              {
+                "@SpeciesCode": "PM10",
+                "@SpeciesDescription": "PM10 Particulate",
+                "@AirQualityIndex": "2",
+                "@AirQualityBand": "Low",
+                "@IndexSource": "Measurement"
+              }
+            ]
+          },
+          {
+            "@BulletinDate": "2019-04-03 00:00:00",
+            "@SiteCode": "WA8",
+            "@SiteName": "Wandsworth - Putney High Street Facade",
+            "@SiteType": "Roadside",
+            "@Latitude": "51.4637206047191",
+            "@Longitude": "-0.215890144123119",
+            "@LatitudeWGS84": "6703734.09916",
+            "@LongitudeWGS84": "-24032.7809111",
+            "Species": {
+              "@SpeciesCode": "NO2",
+              "@SpeciesDescription": "Nitrogen Dioxide",
+              "@AirQualityIndex": "3",
+              "@AirQualityBand": "Low",
+              "@IndexSource": "Measurement"
+            }
+          },
+          {
+            "@BulletinDate": "2019-04-03 00:00:00",
+            "@SiteCode": "WA9",
+            "@SiteName": "Wandsworth - Putney",
+            "@SiteType": "Urban Background",
+            "@Latitude": "51.4650325059122",
+            "@Longitude": "-0.215824580947572",
+            "@LatitudeWGS84": "6703968.51315",
+            "@LongitudeWGS84": "-24025.4824518",
+            "Species": [
+              {
+                "@SpeciesCode": "NO2",
+                "@SpeciesDescription": "Nitrogen Dioxide",
+                "@AirQualityIndex": "2",
+                "@AirQualityBand": "Low",
+                "@IndexSource": "Measurement"
+              },
+              {
+                "@SpeciesCode": "PM10",
+                "@SpeciesDescription": "PM10 Particulate",
+                "@AirQualityIndex": "1",
+                "@AirQualityBand": "Low",
+                "@IndexSource": "Measurement"
+              }
+            ]
+          },
+          {
+            "@BulletinDate": "2019-04-03 00:00:00",
+            "@SiteCode": "WAA",
+            "@SiteName": "Wandsworth - Battersea",
+            "@SiteType": "Roadside",
+            "@Latitude": "51.4794395281222",
+            "@Longitude": "-0.141786953606306",
+            "@LatitudeWGS84": "6706543.24163182",
+            "@LongitudeWGS84": "-15783.6514765835",
+            "Species": {
+              "@SpeciesCode": "PM10",
+              "@SpeciesDescription": "PM10 Particulate",
+              "@AirQualityIndex": "2",
+              "@AirQualityBand": "Low",
+              "@IndexSource": "Measurement"
+            }
+          },
+          {
+            "@BulletinDate": "2019-04-03 00:00:00",
+            "@SiteCode": "WAB",
+            "@SiteName": "Wandsworth - Tooting High Street",
+            "@SiteType": "Roadside",
+            "@Latitude": "51.429331",
+            "@Longitude": "-0.166524",
+            "@LatitudeWGS84": "6697591.67537674",
+            "@LongitudeWGS84": "-18537.3668848591",
+            "Species": [
+              {
+                "@SpeciesCode": "NO2",
+                "@SpeciesDescription": "Nitrogen Dioxide",
+                "@AirQualityIndex": "2",
+                "@AirQualityBand": "Low",
+                "@IndexSource": "Measurement"
+              },
+              {
+                "@SpeciesCode": "PM10",
+                "@SpeciesDescription": "PM10 Particulate",
+                "@AirQualityIndex": "2",
+                "@AirQualityBand": "Low",
+                "@IndexSource": "Measurement"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+  

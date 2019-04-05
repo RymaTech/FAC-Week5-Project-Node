@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/scripts/server.js",
   "scripts": {
-    "test": "tape src/server.js | tap-spec",
+    "test": "tape src/tests/filter.test.js | tap-spec",
     "start": "nodemon src/server.js"
   },
   "keywords": [],

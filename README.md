@@ -23,6 +23,10 @@ Week 5 project.
     + request
 + Heroku
 
+## API
+
+We used KCL's London Air API: https://www.londonair.org.uk/LondonAir/API/.
+
 ## GOALS
 
 :heavy_check_mark: 1. Use at least 1 API
